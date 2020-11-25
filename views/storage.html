@@ -1,0 +1,38 @@
+<%- include('partials/header.ejs') %>
+        <header>
+            <h1>storage & manipulation</h1>
+        </header><br/>
+<%- include('partials/nav.ejs') %>
+        <br><br>
+        
+        <div class="bioinfo">
+            <h2>How and where is this stored?</h2>
+        </div>
+        
+        <main>
+            <figure>
+                <img src="img/bioinfo_storage.jpg" alt="Bioinformatics image" id="bioimg"/>
+            </figure>
+            
+            <div class="biodef">
+            <p>
+                The short answer to this is the data is collected and stored by large data banks located all over the world. 
+                Various data banks collect DNA and RNA sequences from scientific papers and genome projects. Most data banks belong to 
+                international entites to allow for a more collaborative environment. Retrieval of this information from the archieves 
+                utilizes very standard tools such as Google. One simple need to search specific keywords,
+                and that information is accessed instantaously.
+            </p>
+            <p id="list_title">Examples of data bank entities listed below:</p>
+            <dl id="entites">
+                <dt>wwPDB</dt>
+                <dd>- worldwide Protein Data Bank</dd>
+                <dt>RCSB</dt>
+                <dd>- Research Collaboratory for Structural Bioinformatics</dd>
+                <dt>PDBe</dt>
+                <dd>- Protein Data Bank Europe</dd>
+            </dl>
+
+            </div>
+        </main>
+        
+<%- include('partials/footer.ejs') %>
